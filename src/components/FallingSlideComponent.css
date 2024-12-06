@@ -1,0 +1,32 @@
+.falling-slide {
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: transform 2s ease;
+  }
+  
+  .fall-right {
+	animation: fall-right 2s forwards;
+  }
+  
+  .fall-left {
+	animation: fall-left 2s forwards;
+  }
+  
+  @keyframes fall-right {
+	100% {
+	  opacity: 0;
+	  transform: translateY(100vh) rotate(360deg);
+	}
+  }
+  
+  @keyframes fall-left {
+	100% {
+	  opacity: 0;
+	  transform: translateY(100vh) rotate(-360deg);
+	}
+  }
+  

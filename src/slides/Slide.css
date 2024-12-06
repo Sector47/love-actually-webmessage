@@ -1,0 +1,8 @@
+.slide-image {
+	width: 100%;
+	height: auto;
+	max-width: 30px; /* Adjust as necessary */
+	border-radius: 8px;
+	margin-top: 20px;
+  }
+  

@@ -1,0 +1,77 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  background-color: #001f3f; /* Dark navy shade */
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 700px; /* Twice the height of the slides */
+  position: absolute;
+  top: 0;
+  background-size: contain; /* Ensure the image maintains its aspect ratio */
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.controls {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  z-index: 3;
+}
+
+.reset-button,
+.mute-button {
+  background-color: #4b4b4b; /* Darker grey shade */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reset-button:hover,
+.mute-button:hover {
+  background-color: #333333; /* Even darker grey for hover state */
+}
+
+.next-slide {
+  position: absolute;
+  z-index: 1; /* Ensure it is behind the draggable slide */
+}
+
+.draggable {
+  position: absolute;
+}
+
+.draggable.dragging {
+  transition: transform 0.3s ease;
+}
+
+.slide {
+  width: 270px;
+  height: 200px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  margin: 1px;
+}
