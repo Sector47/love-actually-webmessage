@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/love-actually-webmessage/static/css/main.a3dbc2f9.css",
-    "main.js": "/love-actually-webmessage/static/js/main.c6e232cc.js",
+    "main.js": "/love-actually-webmessage/static/js/main.572b8000.js",
     "static/js/488.d9e3bc9c.chunk.js": "/love-actually-webmessage/static/js/488.d9e3bc9c.chunk.js",
     "index.html": "/love-actually-webmessage/index.html",
     "main.a3dbc2f9.css.map": "/love-actually-webmessage/static/css/main.a3dbc2f9.css.map",
-    "main.c6e232cc.js.map": "/love-actually-webmessage/static/js/main.c6e232cc.js.map",
+    "main.572b8000.js.map": "/love-actually-webmessage/static/js/main.572b8000.js.map",
     "488.d9e3bc9c.chunk.js.map": "/love-actually-webmessage/static/js/488.d9e3bc9c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a3dbc2f9.css",
-    "static/js/main.c6e232cc.js"
+    "static/js/main.572b8000.js"
   ]
 }
