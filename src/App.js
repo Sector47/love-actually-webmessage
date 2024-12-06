@@ -34,8 +34,9 @@ function App() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [showNext, setShowNext] = useState(true);
   const [muted, setMuted] = useState(false);
-  const [backgroundImage, setBackgroundImage] = useState('/media/images/stickfigure.png'); // Initial background image
-  const audioRef = useRef(new Audio('/media/music/sayitscarolers.mp3')); // Update path to match the location in public directory
+  const audioRef = useRef(new Audio('/love-actually-webmessage/media/music/sayitscarolers.mp3')); // Update path to match the location in public directory
+  const [backgroundImage, setBackgroundImage] = useState('/love-actually-webmessage/media/images/stickfigure.png'); // Initial background image
+
   const draggableRef = useRef(null); // Create a ref for the draggable element
 
   useEffect(() => {
@@ -133,7 +134,7 @@ function App() {
         nextSlide(); // Immediately set the next slide if there are more slides
       } else {
         setShowNext(false);
-        setBackgroundImage('/media/images/stickfigurenohands.png'); // Change to final background image
+        setBackgroundImage('/love-actually-webmessage/media/images/stickfigurenohands.png'); // Change to final background image
         console.log("Reached last slide");
       }
     } else {
